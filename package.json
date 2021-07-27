@@ -3,16 +3,28 @@
   "version": "1.0.0",
   "description": "Wrapper для CurrateAPI",
   "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "swedesjs",
+  "license": "MIT",
   "dependencies": {
     "node-fetch": "^2.6.1"
   },
   "devDependencies": {
     "@types/node-fetch": "^2.5.12"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swedesjs/currate-wrapper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/swedesjs/currate-wrapper/issues"
+  },
+  "homepage": "https://github.com/swedesjs/currate-wrapper#readme"
 }
